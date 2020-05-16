@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95979973246FF6E100265A92 /* CODE-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95979971246FF6E100265A92 /* CODE-Bold.otf */; };
+		95979974246FF6E100265A92 /* CODE-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95979972246FF6E100265A92 /* CODE-Light.otf */; };
 		95F1EA72242F76E500C1771F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1EA71242F76E500C1771F /* AppDelegate.swift */; };
 		95F1EA74242F76E500C1771F /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1EA73242F76E500C1771F /* ARViewController.swift */; };
 		95F1EA76242F76E500C1771F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 95F1EA75242F76E500C1771F /* Experience.rcproject */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95979971246FF6E100265A92 /* CODE-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CODE-Bold.otf"; path = "../../../../../../Downloads/code/CODE-Bold.otf"; sourceTree = "<group>"; };
+		95979972246FF6E100265A92 /* CODE-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CODE-Light.otf"; path = "../../../../../../Downloads/code/CODE-Light.otf"; sourceTree = "<group>"; };
 		95F1EA6E242F76E500C1771F /* Split Mind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Mind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F1EA71242F76E500C1771F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F1EA73242F76E500C1771F /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
@@ -60,9 +64,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95979970246FF6BE00265A92 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95979971246FF6E100265A92 /* CODE-Bold.otf */,
+				95979972246FF6E100265A92 /* CODE-Light.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		95F1EA65242F76E500C1771F = {
 			isa = PBXGroup;
 			children = (
+				95979970246FF6BE00265A92 /* Fonts */,
 				95F1EA70242F76E500C1771F /* Split Mind */,
 				95F1EA87242F76E700C1771F /* Split MindTests */,
 				95F1EA6F242F76E500C1771F /* Products */,
@@ -183,9 +197,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95979973246FF6E100265A92 /* CODE-Bold.otf in Resources */,
 				95F1EA7E242F76E700C1771F /* LaunchScreen.storyboard in Resources */,
 				95F1EA7B242F76E700C1771F /* Assets.xcassets in Resources */,
 				95F1EA79242F76E500C1771F /* Main.storyboard in Resources */,
+				95979974246FF6E100265A92 /* CODE-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

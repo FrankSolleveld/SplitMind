@@ -2,10 +2,18 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LUC-9r-JzW">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="CODE-Bold.otf">
+            <string>Code-Bold</string>
+        </array>
+        <array key="CODE-Light.otf">
+            <string>Code-Light</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Menu View Controller-->
         <scene sceneID="5Yw-bQ-goG">
@@ -15,42 +23,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7De-rq-iz4">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="1mz-9v-ist"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ekd-cR-BN8">
+                                <rect key="frame" x="102" y="391" width="210" height="114"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7De-rq-iz4">
+                                        <rect key="frame" x="21" y="0.0" width="168" height="38"/>
+                                        <fontDescription key="fontDescription" name="Code-Bold" family="Code Bold" pointSize="25"/>
+                                        <state key="normal" title="AR Experience">
+                                            <color key="titleColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="1mz-9v-ist"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOn-Me-E86">
+                                        <rect key="frame" x="0.0" y="38" width="210" height="38"/>
+                                        <fontDescription key="fontDescription" name="Code-Bold" family="Code Bold" pointSize="25"/>
+                                        <state key="normal" title="Voice Experience">
+                                            <color key="titleColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgV-sV-T7o">
+                                        <rect key="frame" x="50.5" y="76" width="109" height="38"/>
+                                        <fontDescription key="fontDescription" name="Code-Bold" family="Code Bold" pointSize="25"/>
+                                        <state key="normal" title="Settings">
+                                            <color key="titleColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split Mind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34Y-wc-8jg">
+                                <rect key="frame" x="41" y="144" width="332" height="67"/>
+                                <fontDescription key="fontDescription" name="Code-Light" family="Code Light" pointSize="65"/>
+                                <color key="textColor" red="0.72549019607843135" green="0.38431372549019605" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPERIENCE SCHIZOPHRENIA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEH-FA-jg5">
+                                <rect key="frame" x="41" y="211" width="332" height="26"/>
+                                <fontDescription key="fontDescription" name="Code-Bold" family="Code Bold" pointSize="25"/>
+                                <color key="textColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.0039215686274509803" blue="0.0039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="7De-rq-iz4" firstAttribute="centerY" secondItem="blZ-zH-QKe" secondAttribute="centerY" id="4wh-ti-r9b"/>
-                            <constraint firstItem="7De-rq-iz4" firstAttribute="centerX" secondItem="blZ-zH-QKe" secondAttribute="centerX" id="MMc-Zc-DCl"/>
+                            <constraint firstItem="SEH-FA-jg5" firstAttribute="leading" secondItem="PLP-9B-9En" secondAttribute="leading" constant="41" id="29x-MB-VTW"/>
+                            <constraint firstItem="Ekd-cR-BN8" firstAttribute="centerY" secondItem="blZ-zH-QKe" secondAttribute="centerY" id="Psh-yq-bV6"/>
+                            <constraint firstItem="SEH-FA-jg5" firstAttribute="top" secondItem="34Y-wc-8jg" secondAttribute="bottom" id="XVT-UF-Se3"/>
+                            <constraint firstItem="PLP-9B-9En" firstAttribute="trailing" secondItem="34Y-wc-8jg" secondAttribute="trailing" constant="41" id="aff-bN-4ag"/>
+                            <constraint firstItem="34Y-wc-8jg" firstAttribute="top" secondItem="PLP-9B-9En" secondAttribute="top" constant="100" id="mVq-96-6HP"/>
+                            <constraint firstItem="PLP-9B-9En" firstAttribute="trailing" secondItem="SEH-FA-jg5" secondAttribute="trailing" constant="41" id="nIU-SL-4VD"/>
+                            <constraint firstItem="Ekd-cR-BN8" firstAttribute="centerX" secondItem="blZ-zH-QKe" secondAttribute="centerX" id="pWQ-Rv-GUd"/>
+                            <constraint firstItem="34Y-wc-8jg" firstAttribute="leading" secondItem="PLP-9B-9En" secondAttribute="leading" constant="41" id="vjs-dp-JSf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PLP-9B-9En"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eVL-kq-Zhs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ym-jZ-4kh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-787" y="132"/>
+            <point key="canvasLocation" x="121.73913043478262" y="131.91964285714286"/>
         </scene>
         <!--ARView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ViewController" customModule="Split_Mind" customModuleProvider="target" sceneMemberID="viewController">
-                    <arView key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ARViewController" customModule="Split_Mind" customModuleProvider="target" sceneMemberID="viewController">
+                    <arView key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" enableRayTracedShadows="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </arView>
-                    <navigationItem key="navigationItem" id="en8-NS-NaK"/>
+                    <navigationItem key="navigationItem" id="jNQ-yV-mJa"/>
                     <connections>
                         <outlet property="arView" destination="8bC-Xf-vdC" id="TPV-4x-avp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="134"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
         </scene>
     </scenes>
 </document>
