@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LUC-9r-JzW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LUC-9r-JzW">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,48 +25,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ekd-cR-BN8">
-                                <rect key="frame" x="102" y="391" width="210" height="114"/>
+                                <rect key="frame" x="110.5" y="385" width="193" height="126"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7De-rq-iz4">
-                                        <rect key="frame" x="21" y="0.0" width="168" height="38"/>
+                                        <rect key="frame" x="14" y="0.0" width="165" height="42"/>
                                         <fontDescription key="fontDescription" name="Code-Bold" family="Code Bold" pointSize="25"/>
                                         <state key="normal" title="AR Experience">
-                                            <color key="titleColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" name="SplitText"/>
                                         </state>
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="show" id="1mz-9v-ist"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOn-Me-E86">
-                                        <rect key="frame" x="0.0" y="38" width="210" height="38"/>
+                                        <rect key="frame" x="0.0" y="42" width="193" height="42"/>
                                         <fontDescription key="fontDescription" name="Code-Bold" family="Code Bold" pointSize="25"/>
                                         <state key="normal" title="Voice Experience">
-                                            <color key="titleColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" name="SplitText"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgV-sV-T7o">
-                                        <rect key="frame" x="50.5" y="76" width="109" height="38"/>
+                                        <rect key="frame" x="50.5" y="84" width="92" height="42"/>
                                         <fontDescription key="fontDescription" name="Code-Bold" family="Code Bold" pointSize="25"/>
                                         <state key="normal" title="Settings">
-                                            <color key="titleColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" name="SplitText"/>
                                         </state>
                                     </button>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split Mind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34Y-wc-8jg">
-                                <rect key="frame" x="41" y="144" width="332" height="67"/>
+                                <rect key="frame" x="41" y="144" width="332" height="76"/>
                                 <fontDescription key="fontDescription" name="Code-Light" family="Code Light" pointSize="65"/>
-                                <color key="textColor" red="0.72549019607843135" green="0.38431372549019605" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" name="SplitYellow"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPERIENCE SCHIZOPHRENIA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEH-FA-jg5">
-                                <rect key="frame" x="41" y="211" width="332" height="26"/>
+                                <rect key="frame" x="41" y="220" width="332" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Code-Bold" family="Code Bold" pointSize="25"/>
-                                <color key="textColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" name="SplitText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0039215686274509803" green="0.0039215686274509803" blue="0.0039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="SplitBackground"/>
                         <constraints>
                             <constraint firstItem="SEH-FA-jg5" firstAttribute="leading" secondItem="PLP-9B-9En" secondAttribute="leading" constant="41" id="29x-MB-VTW"/>
                             <constraint firstItem="Ekd-cR-BN8" firstAttribute="centerY" secondItem="blZ-zH-QKe" secondAttribute="centerY" id="Psh-yq-bV6"/>
@@ -102,4 +103,15 @@
             <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="SplitBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SplitText">
+            <color red="0.023529411764705882" green="0.023529411764705882" blue="0.023529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SplitYellow">
+            <color red="0.62127571865684628" green="0.36322947573753983" blue="0.15820413876126535" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
 </document>
