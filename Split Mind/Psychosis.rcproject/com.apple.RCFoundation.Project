@@ -547,19 +547,200 @@
                 ]
               },
               "physicsMode" : "grid",
-              "title" : "Box",
+              "title" : "horror_horizontal",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99801433086395264,
+                  -6.5383440883692856e-09,
+                  0.062986657023429871,
+                  0,
+                  0.038395397365093231,
+                  0.79272502660751343,
+                  -0.60836905241012573,
+                  0,
+                  -0.049931600689888,
+                  0.60957944393157959,
+                  0.79115098714828491,
+                  0,
+                  0.27327832579612732,
+                  1.3155235052108765,
+                  1.4802725315093994,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "vertical",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "AC016577-AE42-4639-A70E-E5535597ED29",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "9756D32B-D666-4487-947E-AFFFA07F5EC8" : null,
+                  "58368700-2C28-49A6-A310-E793A18F047C" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "noEditClockface_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "D6B15DA7-B383-4A78-BC37-35032993AD69"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "noEditClockhourHand_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "6B018624-99D0-431E-81F1-2B400C7D0610"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "noEditClockminuteHand_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "B41EEF4A-4F43-4030-9BF5-C6DA42A45CB9"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.ClockAssetFactory",
+                        "version" : "1.1"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "F2C22548-78FB-4DF0-A115-664115DE5D02"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.1730941534042358,
+                        0,
+                        0,
+                        0,
+                        0,
+                        6.2929672139944159e-07,
+                        -1.1730940341949463,
+                        0,
+                        0,
+                        1.1730940341949463,
+                        6.2929672139944159e-07,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "Shelf" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Scene",
               "viewTransform" : {
                 "cameraTransform" : [
                   0.81422847509384155,
                   -7.9162365551610492e-09,
                   0.58054453134536743,
                   0,
-                  0.10362378507852554,
-                  0.98394089937210083,
-                  -0.14533495903015137,
+                  0.10362379252910614,
+                  0.98394095897674561,
+                  -0.14533497393131256,
                   0,
-                  -0.57122200727462769,
-                  0.17849405109882355,
+                  -0.57122206687927246,
+                  0.17849406599998474,
                   0.80115252733230591,
                   0,
                   -0.68022537231445312,
