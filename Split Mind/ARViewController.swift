@@ -44,7 +44,7 @@ class ARViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Psychosis.loadBox()
+        let boxAnchor = try! Psychosis.loadHorror()
 
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
