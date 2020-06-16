@@ -10,15 +10,41 @@
 
 import UIKit
 import RealityKit
+import ARKit
 
 class ARViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     
+//    override func viewDidAppear(_ animated: Bool) {
+//        super.viewDidAppear(animated)
+//        
+//        setupARView()
+//        
+//        arView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap(recognizer:))))
+//    }
+//    
+//    
+//    // MARK: - Setup Methods
+//    
+//    func setupARView(){
+//        arView.automaticallyConfigureSession = false
+//        let configuration = ARWorldTrackingConfiguration()
+//        configuration.planeDetection = [.horizontal, .vertical]
+//        configuration.environmentTexturing = .automatic
+//        arView.session.run(configuration)
+//    }
+//    
+//    // MARK: Object Placement
+//    @objc
+//    func handleTap(recognizer: UITapGestureRecognizer) {
+//        
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        let boxAnchor = try! Psychosis.loadBox()
 
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		954243B92498DBBD00D89BD0 /* Psychosis.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 954243B82498DBBD00D89BD0 /* Psychosis.rcproject */; };
 		95979973246FF6E100265A92 /* CODE-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95979971246FF6E100265A92 /* CODE-Bold.otf */; };
 		95979974246FF6E100265A92 /* CODE-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95979972246FF6E100265A92 /* CODE-Light.otf */; };
 		95F1EA72242F76E500C1771F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1EA71242F76E500C1771F /* AppDelegate.swift */; };
 		95F1EA74242F76E500C1771F /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1EA73242F76E500C1771F /* ARViewController.swift */; };
-		95F1EA76242F76E500C1771F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 95F1EA75242F76E500C1771F /* Experience.rcproject */; };
 		95F1EA79242F76E500C1771F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F1EA77242F76E500C1771F /* Main.storyboard */; };
 		95F1EA7B242F76E700C1771F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F1EA7A242F76E700C1771F /* Assets.xcassets */; };
 		95F1EA7E242F76E700C1771F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F1EA7C242F76E700C1771F /* LaunchScreen.storyboard */; };
@@ -30,12 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		954243B82498DBBD00D89BD0 /* Psychosis.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Psychosis.rcproject; sourceTree = "<group>"; };
 		95979971246FF6E100265A92 /* CODE-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CODE-Bold.otf"; path = "../../../../../../Downloads/code/CODE-Bold.otf"; sourceTree = "<group>"; };
 		95979972246FF6E100265A92 /* CODE-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CODE-Light.otf"; path = "../../../../../../Downloads/code/CODE-Light.otf"; sourceTree = "<group>"; };
 		95F1EA6E242F76E500C1771F /* Split Mind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Mind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F1EA71242F76E500C1771F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F1EA73242F76E500C1771F /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
-		95F1EA75242F76E500C1771F /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		95F1EA78242F76E500C1771F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95F1EA7A242F76E700C1771F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F1EA7D242F76E700C1771F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 				95F1EA71242F76E500C1771F /* AppDelegate.swift */,
 				95F1EA93242F786000C1771F /* MenuViewController.swift */,
 				95F1EA73242F76E500C1771F /* ARViewController.swift */,
-				95F1EA75242F76E500C1771F /* Experience.rcproject */,
+				954243B82498DBBD00D89BD0 /* Psychosis.rcproject */,
 				95F1EA77242F76E500C1771F /* Main.storyboard */,
 				95F1EA7A242F76E700C1771F /* Assets.xcassets */,
 				95F1EA7C242F76E700C1771F /* LaunchScreen.storyboard */,
@@ -221,8 +221,8 @@
 			files = (
 				95F1EA74242F76E500C1771F /* ARViewController.swift in Sources */,
 				95F1EA72242F76E500C1771F /* AppDelegate.swift in Sources */,
-				95F1EA76242F76E500C1771F /* Experience.rcproject in Sources */,
 				95F1EA94242F786000C1771F /* MenuViewController.swift in Sources */,
+				954243B92498DBBD00D89BD0 /* Psychosis.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +385,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BRJ7L3SUQ;
 				INFOPLIST_FILE = "Split Mind/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,6 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BRJ7L3SUQ;
 				INFOPLIST_FILE = "Split Mind/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
